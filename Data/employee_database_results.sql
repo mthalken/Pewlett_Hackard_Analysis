@@ -106,10 +106,31 @@ ORDER BY dept_no;
 SELECT * FROM retire_department_count;
 
 
--- Find the average age of the retirement group
+-- Find the average age of the retirement group (not completed)
+SELECT emp.emp_no,
+	emp.birth_date,
+	de.dept_no,
+	sa.salary
+INTO salary_retired_count
+FROM dept_emp as de
+INNER JOIN employees as emp
+ON (de.emp_no = emp.emp_no)
+INNER JOIN salaries as sa
+ON (de.emp_no = sa.emp_no)
+WHERE (de.to_date = '9999-01-01')
+	AND (emp.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
+ORDER BY emp_no
 
+SELECT dept_info, AVG(birth_date)
+FROM dept_info
+GROUP BY dept_no;
+
+ALTER TABLE firepower ADD COLUMN ID SERIAL PRIMARY KEY;
+SELECT * FROM firepower;
 
 -- Find the average age of all current employees
 
 
 -- Find information on the length of time employees are with the company 
+
+

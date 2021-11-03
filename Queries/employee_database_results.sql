@@ -105,3 +105,36 @@ ORDER BY dept_no;
 
 SELECT * FROM retire_department_count;
 
+
+
+-- Find if there were any salary changes
+SELECT e.emp_no,
+	e.first_name,
+	e.last_name,
+	e.gender,
+	s.salary,
+	s.from_date,
+	de.to_date
+INTO date_length
+FROM employees as e
+INNER JOIN salaries as s
+ON (e.emp_no = s.emp_no)
+INNER JOIN dept_emp as de
+ON (e.emp_no = de.emp_no)
+WHERE (de.to_date = '9999-01-01')
+	
+SELECT emp_no,
+	first_name,
+	from_date,
+	last_name,
+	salary,
+	AGE(CURRENT_DATE, from_date) AS employment_length
+INTO length_table
+FROM date_length
+
+SELECT * FROM date_length;
+SELECT * FROM length_table;
+
+SELECT AVG(employment_length) FROM length_table;
+SELECT COUNT(first_name) FROM length_table;
+
