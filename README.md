@@ -9,7 +9,7 @@
 4. Find the number of employees eligible for the mentorship program.
 
 ## Resources
-- Source of data: [departments.csv](https://github.com/mthalken/Pewlett_Hackard_Analysis/blob/main/Data/departments.csv), [dept_emp.csv](https://github.com/mthalken/Pewlett_Hackard_Analysis/blob/main/Data/dept_emp.csv), [dept_managers.csv](https://github.com/mthalken/Pewlett_Hackard_Analysis/blob/main/Data/dept_manager.csv), [employees.csv](https://github.com/mthalken/Pewlett_Hackard_Analysis/blob/main/Data/employees.csv), [salaries.csv](https://github.com/mthalken/Pewlett_Hackard_Analysis/blob/main/Data/salaries.csv), [titles.csv](https://github.com/mthalken/Pewlett_Hackard_Analysis/blob/main/Data/titles.csv)
+- Source of data: [departments.csv](https://github.com/mthalken/Pewlett_Hackard_Analysis/blob/main/Data/departments.csv), [dept_emp.csv](https://github.com/mthalken/Pewlett_Hackard_Analysis/blob/main/Data/dept_emp.csv), [dept_managers.csv](https://github.com/mthalken/Pewlett_Hackard_Analysis/blob/main/Data/dept_manager.csv), [employees.csv](https://github.com/mthalken/Pewlett_Hackard_Analysis/blob/main/Data/employees.csv), [salaries.csv](https://github.com/mthalken/Pewlett_Hackard_Analysis/blob/main/Data/salaries.csv), & [titles.csv](https://github.com/mthalken/Pewlett_Hackard_Analysis/blob/main/Data/titles.csv)
 - Software: pgAdmin 4.6.1, PostgreSQL, Visual Studio Code 1.60.2
 - Please see the [here]() to see the refactored code.
 - You can also see the preliminary code [here]()
