@@ -17,9 +17,9 @@
 ## Results 
 - There were three questions that came up looking into the results of the data:
     1. While looking through the data and csv's we noticed that there was no data on salaries and changes in salaries. This could be a good opportunity for further analysis on salary changes over time in each department and for each position. 
-    2. Looking at the number of current manager there are for each department we were only able to find 5. This brings up a question if this data is updated or being updated through the employment cycle. 
+    2. Looking at the number of current managers there are for each department we were only able to find 5. This brings up a question if this data is updated or being updated through the employment cycle. 
     ![png](https://github.com/mthalken/Pewlett_Hackard_Analysis/blob/main/Results/manager_info.png)
-    3. To further the last point we wanted to find the average length of employment for current employees (29 years and 2 months). This could be that the company does an extremely excelent job of job retention or the data has not been updated. We also found the average length of employment for previous employees was 4 years and 7 months. 
+    3. To further the last point we wanted to find the average length of employment for current employees (29 years and 2 months). This could be that the company does an excellent job of job retention, or the data has not been updated. We also found the average length of employment for previous employees was 4 years and 7 months. 
 
 - Current employees:
 
@@ -55,7 +55,7 @@
 
 - Mentorship eligible by department:
 
-![png]()
+![png](https://github.com/mthalken/Pewlett_Hackard_Analysis/blob/main/Results/mentorship_eligible_by_department.png)
 
 
 
