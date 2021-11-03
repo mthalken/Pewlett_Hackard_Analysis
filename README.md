@@ -22,32 +22,46 @@
     3. To further the last point we wanted to find the average length of employment for current employees (29 years and 2 months). This could be that the company does an extremely excelent job of job retention or the data has not been updated. We also found the average length of employment for previous employees was 4 years and 7 months. 
 
 - Current employees:
+
 ![png](https://github.com/mthalken/Pewlett_Hackard_Analysis/blob/main/Results/current_employment_count.png)
 
 - Average length of current employees:
+
 ![png](https://github.com/mthalken/Pewlett_Hackard_Analysis/blob/main/Results/avg_employment_length.png)
 
 - Average length of previous employees:
+
 ![png](https://github.com/mthalken/Pewlett_Hackard_Analysis/blob/main/Results/avg_employment_length_past.png)
 
 - Total retirement eligible:
+
 ![png](https://github.com/mthalken/Pewlett_Hackard_Analysis/blob/main/Results/unique_count.png)
 
 - Retirement count per department:
+
 ![png](https://github.com/mthalken/Pewlett_Hackard_Analysis/blob/main/Results/retirement_count_by_department.png)
 
 - Retirement salary sum per department:
+
 ![png](https://github.com/mthalken/Pewlett_Hackard_Analysis/blob/main/Results/retirement_sum_salary_by_department.png)
 
 - Retirement titles:
+
 ![png](https://github.com/mthalken/Pewlett_Hackard_Analysis/blob/main/Results/retiring_title_count.png)
 
 - Mentorship eligible:
+
 ![png](https://github.com/mthalken/Pewlett_Hackard_Analysis/blob/main/Results/mentorship_eligible.png)
+
+- Mentorship eligible by department:
+
+![png]()
 
 
 
 ## Summary
 Upon further review of the data provided it would be best to check the records of the employees and confirm they are accurate to the reported data. 
+
+From the data provided, out of the 240,124 employees there are 90,395 eligible for retirement and only 1549 eligible for the mentorship program. Using some of the potential retirees as mentors could help close the gap. 
 
 
